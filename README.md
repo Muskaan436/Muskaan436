@@ -6,10 +6,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Muskaan436&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
-</p>
-
 ---
 
 ## 🧠 About Me
