@@ -65,14 +65,6 @@ _Auto-updated daily — merged pull requests to repos outside my own account._
 | Repo | Pull Request | Merged |
 |------|--------------|--------|
 | [PostHog/posthog](https://github.com/PostHog/posthog) | [feat(flags): expose is_remote_configuration in MCP tools](https://github.com/PostHog/posthog/pull/56368) | 2026-06-10 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [feat: batch cache penetration alerts into threshold-based Sentry error](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/10) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [feat: add Sentry spans and alerts to promo validation](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/9) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [feat: add promo code validation with UI on checkout](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/8) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [feat: add Sentry performance spans to cache layer](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/7) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [fix: replace N+1 queries with single JOIN in orders API](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/6) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [Feat/order history](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/5) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [fix: prevent cache penetration by caching negative lookups](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/3) | 2026-05-16 |
-| [Team-Vertex-GrabHack/grabmart-clone](https://github.com/Team-Vertex-GrabHack/grabmart-clone) | [feat: add product search with database, caching and filters](https://github.com/Team-Vertex-GrabHack/grabmart-clone/pull/2) | 2026-05-16 |
 | [getsentry/sentry-python](https://github.com/getsentry/sentry-python) | [removed universal bdist_wheel option](https://github.com/getsentry/sentry-python/pull/6197) | 2026-05-04 |
 <!-- CONTRIBUTIONS:END -->
 

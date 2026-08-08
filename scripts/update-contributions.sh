@@ -7,12 +7,19 @@ START_MARKER="<!-- CONTRIBUTIONS:START -->"
 END_MARKER="<!-- CONTRIBUTIONS:END -->"
 TABLE_FILE="$(mktemp)"
 
+# Owners to exclude from the table in addition to $USERNAME's own repos
+EXCLUDED_OWNERS=("Team-Vertex-GrabHack")
+
 echo "Fetching merged PRs authored by $USERNAME..."
 
 prs=$(gh search prs --author "$USERNAME" --json title,url,repository,closedAt,state --limit 100)
 
-rows=$(echo "$prs" | jq -r --arg user "$USERNAME" '
-  [.[] | select(.state == "merged") | select((.repository.nameWithOwner | startswith($user + "/")) | not)]
+excluded_json=$(printf '%s\n' "${EXCLUDED_OWNERS[@]}" | jq -R . | jq -s .)
+
+rows=$(echo "$prs" | jq -r --arg user "$USERNAME" --argjson excluded "$excluded_json" '
+  [.[] | select(.state == "merged")
+       | select((.repository.nameWithOwner | startswith($user + "/")) | not)
+       | select((.repository.nameWithOwner | split("/")[0]) as $owner | ($excluded | index($owner)) | not)]
   | sort_by(.closedAt) | reverse
   | .[] |
   "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) | [\(.title)](\(.url)) | \(.closedAt[:10]) |"
