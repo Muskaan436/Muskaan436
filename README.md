@@ -57,6 +57,19 @@ class Muskaan:
 
 ---
 
+## 🌱 Open Source Contributions
+
+_Auto-updated daily — merged pull requests to repos outside my own account._
+
+<!-- CONTRIBUTIONS:START -->
+| Repo | Pull Request | Merged |
+|------|--------------|--------|
+| [PostHog/posthog](https://github.com/PostHog/posthog) | [feat(flags): expose is_remote_configuration in MCP tools](https://github.com/PostHog/posthog/pull/56368) | 2026-06-10 |
+| [getsentry/sentry-python](https://github.com/getsentry/sentry-python) | [removed universal bdist_wheel option](https://github.com/getsentry/sentry-python/pull/6197) | 2026-05-04 |
+<!-- CONTRIBUTIONS:END -->
+
+---
+
 ## 🚀 Featured Projects
 
 <table>
